@@ -9,7 +9,7 @@ CORS(app)
 
 # Replace with your Telegram bot token and the list of chat IDs
 BOT_TOKEN = '6571310778:AAH_Fa_DpeHG9UkZ2WKq1FKmU0emogyQZd8'
-CHAT_IDS = ['754199821', '6571310778']  # Add multiple chat IDs here
+CHAT_IDS = ['754199821', '6870407039']  # Add multiple chat IDs here
 
 @app.route('/', methods=['POST'])
 def send_to_telegram():
